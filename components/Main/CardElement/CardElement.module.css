@@ -1,0 +1,57 @@
+.cardWrapper {
+  margin: 10px;
+  border: 1px solid green;
+}
+.checkedLikes {
+  padding: 10px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cardElement {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  width: 200px;
+  max-width: 200px;
+  border: 3px solid red;
+  border-radius: 5%;
+}
+
+.elementInfo {
+  flex: 1 0 auto;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+}
+.elementImg {
+  display: block;
+  margin: 0 auto;
+  max-height: 150px;
+}
+
+.innerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  cursor: pointer;
+  min-width: 70px;
+  font-size: 18px;
+  font-weight: 500;
+}
+button:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+button:last-child {
+  margin-bottom: 5px;
+}
